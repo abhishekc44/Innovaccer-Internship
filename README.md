@@ -1,1 +1,5 @@
-# Innovaccer-Internship
+This application makes use of Java to create the front end and the back end and connects to a MySQL database. The mail sending facility is provided via the google API and is achieved by sending the required parameters to the SendMail program. The SMS facility is provided through BulkSMS API and is achieved by sending the required parameters to the SMSTest program.
+Create a project and add the three Java files. The main program is Innovacer.Java which calls the SMSTest.Java and SendMail.Java for sending messages and emails respectively. Add the mail.jar and BulkSms.jar as libraries in the above project. Add the sql file in an appropriate database and the connections for it are present in the main file.
+For running the application ,run the Innovacer.Java and a 3 tabbed pane will open. Enter the visitor details in the first tab and then the host details in the second tab. On entering both these details will get saved in the database and a message and mail will be sent to the host. Thus check in will be completed.
+While checking out enter the visitor phone number in the third tab for determining the user. After verification the visitor will be able to check out and will receive a mail with the appropriate details.
+The sms functionality is present but requires a login to BulkSMS and a payment for delivering the messages 
